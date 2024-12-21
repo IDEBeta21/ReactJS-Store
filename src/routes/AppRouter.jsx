@@ -27,11 +27,11 @@ const AppRouter = () => {
       children: [
         {
           index: true,
-          path: 'ReactJS-Store/dashboard',
+          path: '/dashboard',
           element: <Dashboard />,
         },
         {
-          path: 'ReactJS-Store/products',
+          path: '/products',
           element: <Products />,
         },
         {
