@@ -39,7 +39,7 @@ const AppRouter = () => {
           element: <ProductDetails />,
         },
         {
-          path: '',
+          path: 'ReactJS-Store',
           element: <Dashboard />,
         },
       ],
