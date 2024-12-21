@@ -4,11 +4,11 @@ import './CuiHeader.scss'
 
 const NAV_ITEMS = [
   {
-    url: 'ReactJS-Store/dashboard',
+    url: '/dashboard',
     name: 'Dashboard',
   },
   {
-    url: 'ReactJS-Store/products',
+    url: '/products',
     name: 'Products',
   },
 ]
