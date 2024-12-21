@@ -1,11 +1,12 @@
 {
   "name": "react-js-app",
+  "homepage": "https://IDEBeta21.github.io/ReactJS-Store",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "vite-gh-pages",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
