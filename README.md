@@ -1,6 +1,6 @@
 # React + Vite
 
-## Run docker and database mirgation
+## Run docker 
 ```bash
 $ docker compose up -d --build
 ```
