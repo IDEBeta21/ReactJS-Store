@@ -1,0 +1,11 @@
+services:
+  react-vite-store:
+    image: react-vite-store
+    container_name: react-vite-store
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: dev
+    ports:
+      - 8001:8001
